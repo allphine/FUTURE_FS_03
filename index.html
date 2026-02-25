@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>British Bakes</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-content">
+        <img src="images/logo.png" class="logo">
+        <h1>Freshly Baked Happiness, Every Day</h1>
+        <p>Experience the charm of traditional British baking.</p>
+        <button onclick="scrollToSection('food')">Explore Menu</button>
+    </div>
+</section>
+
+<!-- FOOD SLIDER -->
+<section class="food-section" id="food">
+    <h2>Our Signature Creations</h2>
+    <div class="carousel">
+        <div class="carousel-track">
+            <!-- 23 Food Images -->
+            <img src="images/food/food1.jpg">
+            <img src="images/food/food2.jpg">
+            <img src="images/food/food3.jpg">
+            <img src="images/food/food4.jpg">
+            <img src="images/food/food5.jpg">
+            <img src="images/food/food6.jpg">
+            <img src="images/food/food7.jpg">
+            <img src="images/food/food8.jpg">
+            <img src="images/food/food9.jpg">
+            <img src="images/food/food10.jpg">
+            <img src="images/food/food11.jpg">
+            <img src="images/food/food12.jpg">
+            <img src="images/food/food13.jpg">
+            <img src="images/food/food14.jpg">
+            <img src="images/food/food15.jpg">
+            <img src="images/food/food16.jpg">
+            <img src="images/food/food17.jpg">
+            <img src="images/food/food18.jpg">
+            <img src="images/food/food19.jpg">
+            <img src="images/food/food20.jpg">
+            <img src="images/food/food21.jpg">
+            <img src="images/food/food22.jpg">
+            <img src="images/food/food23.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about">
+    <h2>Welcome to British Bakes</h2>
+    <p>
+        Inspired by traditional British baking, we bring handcrafted cakes,
+        warm pastries, and cozy café moments to life.
+    </p>
+</section>
+
+<!-- AMBIENCE SLIDESHOW -->
+<section class="ambience">
+    <h2>Our Ambience</h2>
+    <div class="slideshow">
+        <img src="images/ambience/place1.jpg" class="slide active">
+        <img src="images/ambience/place2.jpg" class="slide">
+        <img src="images/ambience/place3.jpg" class="slide">
+        <img src="images/ambience/place4.jpg" class="slide">
+    </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review-container" id="reviewContainer">
+        <!-- Reviews will be inserted by JS -->
+    </div>
+</section>
+
+<!-- BOOKING SECTION -->
+<section class="booking">
+    <h2>Book a Table</h2>
+    <form id="bookingForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="date" required>
+        <input type="number" placeholder="Guests" required>
+        <textarea placeholder="Special Request"></textarea>
+        <button type="submit">Reserve Now</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>📍 British Bakes Café</p>
+    <p>📞 +44 123 456 789</p>
+    <p>Open Daily: 9 AM – 9 PM</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
